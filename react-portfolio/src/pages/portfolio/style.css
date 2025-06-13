@@ -1,0 +1,52 @@
+.po_items_ho {
+  /* remove column layout */
+}
+
+.po_item_row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  /* border: 1px solid var(--secondary-color); */
+  padding: 10px;
+}
+
+.img-container {
+  width: 100%;
+  height: 300px; /* Specify your desired height */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  width: 100%; /* set the width to 100% */
+  height: 100%;
+  object-fit: cover; /* This will make the image fill the container */
+}
+
+.po_item_row .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.po_item_row .content p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.po_item_row .content a {
+  background: var(--bg-color);
+  border: solid 1px var(--text-color);
+  padding: 4px 8px;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.po_item_row .content a:hover {
+  text-decoration: none;
+}
