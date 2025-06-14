@@ -28,7 +28,7 @@ export const Portfolio = () => {
                 </Col>
                 <Col md={6} className="content">
                   <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
+                  <a href={data.link}>View project</a>
                 </Col>
               </Row>
             );

@@ -1,6 +1,7 @@
 import image1 from "./assets/images/pexels-pixabay-534216.jpg"
 import image2 from "./assets/images/1032028070862920821.jpg"
 import image3 from "./assets/images/image.png"
+import image4 from "./assets/images/Screenshot 2025-06-14 at 10.48.08 PM.png"
 const logotext = "KARTIKEY";
 const meta = {
     title: "Kartikey Sondhi",
@@ -81,11 +82,11 @@ const dataportfolio = [{
         description: "Self Driving car simulation using Vanilla JS. The car uses a simple neural network to navigate through a track. The model intiates using random weights and learns using huamn feedback.",
         link: "https://self-driving-1.onrender.com/",
     },
-    // {
-    //     img: "https://picsum.photos/400/?grayscale",
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     link: "#",
-    // },
+    {
+        img: image4,
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "https://pdfs.semanticscholar.org/1f56/313f3f5f090c94ecba7101ddf6f6dc21c125.pdf",
+    },
     
 ];
 
