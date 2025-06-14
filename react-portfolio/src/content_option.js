@@ -84,7 +84,7 @@ const dataportfolio = [{
     },
     {
         img: image4,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Novel Fastest Path Finding Algorithm developed using a weighted A* search and a custom heuristic. The algorithm is designed to find the fastest path in a grid-based environment, with a focus on speed and efficiency.",
         link: "https://pdfs.semanticscholar.org/1f56/313f3f5f090c94ecba7101ddf6f6dc21c125.pdf",
     },
     
