@@ -2,6 +2,7 @@ import image1 from "./assets/images/pexels-pixabay-534216.jpg"
 import image2 from "./assets/images/1032028070862920821.jpg"
 import image3 from "./assets/images/image.png"
 import image4 from "./assets/images/Screenshot 2025-06-14 at 10.58.49 PM.png"
+import image5 from "./assets/images/nba.jpg"
 const logotext = "KARTIKEY";
 const meta = {
     title: "Kartikey Sondhi",
@@ -73,20 +74,24 @@ const services = [{
 ];
 
 const dataportfolio = [{
+        img: image4,
+        description: "Novel fastest path finding algorithm developed using a weighted A* search and a custom heuristic. The algorithm is designed to find the fastest path in a grid-based environment, with a focus on speed and efficiency.",
+        link: "https://pdfs.semanticscholar.org/1f56/313f3f5f090c94ecba7101ddf6f6dc21c125.pdf",
+    },{
         img: image1,
         description: "An attempt at the Jane Street Stock Market Prediction Challenge. I trained a CNN-LSTM model from scratch to predict stock prices based on historical data.",
         link: "https://github.com/KabhiCodeKabhiFork/CNN_LSTM_Ensemble_Stock_Prediction",
     },
     {
         img: image3,
-        description: "Self Driving car simulation using Vanilla JS. The car uses a simple neural network to navigate through a track. The model intiates using random weights and learns using huamn feedback.",
+        description: "Self driving car simulation using Vanilla JS. The car uses a simple neural network to navigate through a track. The model intiates using random weights and learns using huamn feedback.",
         link: "https://self-driving-1.onrender.com/",
     },
     {
-        img: image4,
-        description: "Novel Fastest Path Finding Algorithm developed using a weighted A* search and a custom heuristic. The algorithm is designed to find the fastest path in a grid-based environment, with a focus on speed and efficiency.",
-        link: "https://pdfs.semanticscholar.org/1f56/313f3f5f090c94ecba7101ddf6f6dc21c125.pdf",
-    },
+        img: image5,
+        description: "NBA Player statistics analysis using a standardised NBA endpoint. The project is under development and uses MCP to fetch data from the NBA API to answer users questions about NBA players.",
+        link: "#",
+    }
     
 ];
 
