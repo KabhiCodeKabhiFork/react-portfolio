@@ -1,7 +1,7 @@
 import image1 from "./assets/images/pexels-pixabay-534216.jpg"
 import image3 from "./assets/images/image.png"
 import image4 from "./assets/images/Screenshot 2025-06-14 at 10.58.49 PM.png"
-import image5 from "./assets/images/nba.jpg"
+import image5 from "./assets/images/nba.jpeg"
 const logotext = "KARTIKEY";
 const meta = {
     title: "Kartikey Sondhi",
