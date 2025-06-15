@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a9991e82.css",
-    "main.js": "/Portfolio/static/js/main.5649675f.js",
+    "main.js": "/Portfolio/static/js/main.a2305e42.js",
     "static/media/pexels-pixabay-534216.jpg": "/Portfolio/static/media/pexels-pixabay-534216.f88f645befee71f733b3.jpg",
     "static/media/image.png": "/Portfolio/static/media/image.9cdc3e15239a7d1af026.png",
-    "static/media/jpg": "/Portfolio/static/media/1032028070862920821.f523fff181ad1e868a3f.jpg",
+    "static/media/nba.jpg": "/Portfolio/static/media/nba.f523fff181ad1e868a3f.jpg",
     "static/media/Screenshot 2025-06-14 at 10.58.49 PM.png": "/Portfolio/static/media/Screenshot 2025-06-14 at 10.58.49 PM.aef192873638b5876a2e.png",
     "index.html": "/Portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.a9991e82.css",
-    "static/js/main.5649675f.js"
+    "static/js/main.a2305e42.js"
   ]
 }
