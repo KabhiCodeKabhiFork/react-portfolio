@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a9991e82.css",
-    "main.js": "/Portfolio/static/js/main.2257e2f8.js",
+    "main.js": "/Portfolio/static/js/main.2b8f0d5a.js",
     "static/media/pexels-pixabay-534216.jpg": "/Portfolio/static/media/pexels-pixabay-534216.f88f645befee71f733b3.jpg",
     "static/media/nba1.jpg": "/Portfolio/static/media/nba1.291fcbe4002c6ea2a1ef.jpg",
     "static/media/image.png": "/Portfolio/static/media/image.9cdc3e15239a7d1af026.png",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.a9991e82.css",
-    "static/js/main.2257e2f8.js"
+    "static/js/main.2b8f0d5a.js"
   ]
 }
