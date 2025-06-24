@@ -84,7 +84,7 @@ const dataportfolio = [{
     {
         img: image3,
         description: "Self driving car simulation using Vanilla JS. The car uses a simple neural network to navigate through a track. The model intiates using random weights and learns using huamn feedback.",
-        link: "https://self-driving-1.onrender.com/",
+        link: "https://self-driving-car-uz7n.onrender.com",
     },
     {
         img: image5,
