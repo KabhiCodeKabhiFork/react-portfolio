@@ -15,18 +15,22 @@ const introdata = {
         second: "I am a Researcher",
         // third: "I am a Basketball Player",
     },
-    description: "I'm an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning, Python and Academic Research.",
+    description: "I'm an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I love reading documentation to AI applications and exploring new technologies. I am always up for working on an exciting project that may somehow help create a solution.",
     your_img_url: "",
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I am an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning,Python and Academic Research. I am currently exploring oppurtunities surrounding Exoskeletal Assistive Locomotion, be it research or practical design and development."
+    aboutme: "I am an AI/ML Engineer and Researcher with a passion for developing innovative solutions and researching new technologies."
 };
 const worktimeline = [{
+        jobtitle: "Data Scientist 2",
+        where: "Deloitte",
+        date: "Jul 25 - Present",
+    },{
         jobtitle: "Data Scientist Intern",
         where: "Deloitte",
-        date: "Jan 25 - Current",
+        date: "Jan 25 - Jun 25",
     },
     {
         jobtitle: "Data Scientist Intern",
@@ -46,7 +50,7 @@ const skills = [{
     },
     {
         name: "Deep Learning",
-        value: 80,
+        value: 85,
     },
     {
         name: "SQL",
@@ -58,7 +62,9 @@ const skills = [{
     }
 ];
 
-const services = [{
+const services = [{title: "Coding at scale using AI agents",
+    description: "I specialize in developing AI agents that can automate and optimize coding tasks, enhancing productivity and efficiency.",
+},{
         title: "RAG Development and Evaluation",
         description: "I am skilled in developing and evaluating Retrieval-Augmented Generation (RAG) systems",
     },
@@ -108,7 +114,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/KabhiCodeKabhiFork",
     linkedin: "https://www.linkedin.com/in/kartikeysondhi/",
-    twitter: "https://twitter.com",
+    // twitter: "https://twitter.com",
 };
 export {
     meta,
