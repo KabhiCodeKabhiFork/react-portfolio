@@ -15,7 +15,7 @@ const introdata = {
         second: "I am a Researcher",
         // third: "I am a Basketball Player",
     },
-    description: "I'm an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I love reading documentation to AI applications and exploring new technologies. I am always up for working on an exciting project that may somehow help create a solution.",
+    description: "I'm an AI/ML Engineer and Researcher wanting to work on innovative solutions and products. With many areas of AI, left to explore and concur, I currently am working extensively with LLM evaluation and Agents. Would love to connect with like-minded individuals and explore new opportunities.",
     your_img_url: "",
 };
 
