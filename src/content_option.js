@@ -24,9 +24,13 @@ const dataabout = {
     aboutme: "I am an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning,Python and Academic Research. I am currently exploring oppurtunities surrounding Exoskeletal Assistive Locomotion, be it research or practical design and development."
 };
 const worktimeline = [{
+        jobtitle: "Data Scientist 2",
+        where: "Deloitte",
+        date: "Jul 25 - Current",
+    },{
         jobtitle: "Data Scientist Intern",
         where: "Deloitte",
-        date: "Jan 25 - Current",
+        date: "Jan 25 - Jul 25",
     },
     {
         jobtitle: "Data Scientist Intern",
