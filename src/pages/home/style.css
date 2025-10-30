@@ -1,3 +1,21 @@
+body {
+    background: linear-gradient(45deg, #4f014d, #472088, #fdf0d5, #003049,#001827);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 section {
     flex: 1 0 auto;
     position: relative;
@@ -16,7 +34,7 @@ section {
 }
 
 .btn-portfolio {
-    background: var(--primary-color);
+    background: transparent;
     border-radius: 0;
 }
 
@@ -153,7 +171,7 @@ section {
 }
 
 .ac_btn .two {
-    background-color: var(--primary-color);
+    background-color: transparent;
     transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -3;
 }
@@ -166,8 +184,8 @@ section {
 }
 
 #button_p {
-    background: var(--secondary-color);
-    color: var(--primary-color);
+    /* background: transparent; */
+    color: var(--secondary-color);
 }
 
 #button_h:hover {

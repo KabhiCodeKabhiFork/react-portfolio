@@ -1,3 +1,23 @@
+body {
+    /* background: linear-gradient(45deg,#3f021b,#9a3503, #034c69, #134d02); */
+    background: linear-gradient(45deg, #4f014d, #472088, #fdf0d5, #003049,#001827);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .sec_sp {
     margin-bottom: calc(3rem + 5.128vw)
 }

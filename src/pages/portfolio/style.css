@@ -1,3 +1,21 @@
+body {
+    background: linear-gradient(45deg, #4f014d, #472088, #fdf0d5, #003049,#001827);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .po_items_ho {
   /* remove column layout */
 }
