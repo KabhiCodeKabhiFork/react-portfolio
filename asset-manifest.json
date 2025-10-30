@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a9991e82.css",
-    "main.js": "/react-portfolio/static/js/main.fe9c01ab.js",
-    "static/media/pexels-pixabay-534216.jpg": "/react-portfolio/static/media/pexels-pixabay-534216.f88f645befee71f733b3.jpg",
-    "static/media/Screenshot 2025-06-14 at 10.48.08 PM.png": "/react-portfolio/static/media/Screenshot 2025-06-14 at 10.48.08 PM.a85ae4cd7963d3821b79.png",
-    "static/media/image.png": "/react-portfolio/static/media/image.9cdc3e15239a7d1af026.png",
-    "static/media/jpg": "/react-portfolio/static/media/1032028070862920821.f523fff181ad1e868a3f.jpg",
-    "index.html": "/react-portfolio/index.html"
+    "main.css": "/static/css/main.1256637c.css",
+    "main.js": "/static/js/main.19916d26.js",
+    "static/media/pexels-pixabay-534216.jpg": "/static/media/pexels-pixabay-534216.f88f645befee71f733b3.jpg",
+    "static/media/Screenshot 2025-06-14 at 10.48.08 PM.png": "/static/media/Screenshot 2025-06-14 at 10.48.08 PM.a85ae4cd7963d3821b79.png",
+    "static/media/image.png": "/static/media/image.9cdc3e15239a7d1af026.png",
+    "static/media/jpg": "/static/media/1032028070862920821.f523fff181ad1e868a3f.jpg",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.a9991e82.css",
-    "static/js/main.fe9c01ab.js"
+    "static/css/main.1256637c.css",
+    "static/js/main.19916d26.js"
   ]
 }
