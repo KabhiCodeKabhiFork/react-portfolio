@@ -15,13 +15,13 @@ const introdata = {
         second: "I am a Researcher",
         // third: "I am a Basketball Player",
     },
-    description: "I'm an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning, Python and Academic Research.",
+    description: "I'm an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning, Python and Academic Research. Currently learning C++ and exploring oppurtunities surrounding building optimizations for AI Inference on different devices",
     your_img_url: "",
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I am an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning,Python and Academic Research. I am currently exploring oppurtunities surrounding Exoskeletal Assistive Locomotion, be it research or practical design and development."
+    aboutme: "I am an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning,Python and Academic Research. I am currently exploring oppurtunities surrounding surrounding building optimizations for AI Inference on different devices, be it research or practical design and development."
 };
 const worktimeline = [{
         jobtitle: "Data Scientist 2",
@@ -108,7 +108,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/KabhiCodeKabhiFork",
     linkedin: "https://www.linkedin.com/in/kartikeysondhi/",
-    twitter: "https://twitter.com",
+    // twitter: "https://twitter.com",
 };
 export {
     meta,
