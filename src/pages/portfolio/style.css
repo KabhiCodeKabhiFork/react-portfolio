@@ -16,9 +16,6 @@ body {
     }
 }
 
-.po_items_ho {
-  /* remove column layout */
-}
 
 .po_item_row {
   display: flex;
