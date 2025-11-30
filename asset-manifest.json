@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.a58e9439.css",
-    "main.js": "./static/js/main.8adc31fc.js",
-    "static/media/pexels-pixabay-534216.jpg": "./static/media/pexels-pixabay-534216.f88f645befee71f733b3.jpg",
-    "static/media/myResearchPaper.png": "./static/media/myResearchPaper.a85ae4cd7963d3821b79.png",
-    "static/media/image.png": "./static/media/image.9cdc3e15239a7d1af026.png",
-    "static/media/jpg": "./static/media/1032028070862920821.f523fff181ad1e868a3f.jpg",
-    "index.html": "./index.html"
+    "main.css": "/react-portfolio/static/css/main.a58e9439.css",
+    "main.js": "/react-portfolio/static/js/main.ae5383ef.js",
+    "static/media/pexels-pixabay-534216.jpg": "/react-portfolio/static/media/pexels-pixabay-534216.f88f645befee71f733b3.jpg",
+    "static/media/myResearchPaper.png": "/react-portfolio/static/media/myResearchPaper.a85ae4cd7963d3821b79.png",
+    "static/media/image.png": "/react-portfolio/static/media/image.9cdc3e15239a7d1af026.png",
+    "static/media/jpg": "/react-portfolio/static/media/1032028070862920821.f523fff181ad1e868a3f.jpg",
+    "index.html": "/react-portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.a58e9439.css",
-    "static/js/main.8adc31fc.js"
+    "static/js/main.ae5383ef.js"
   ]
 }
