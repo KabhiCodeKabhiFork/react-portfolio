@@ -1,7 +1,7 @@
 import image1 from "./assets/images/pexels-pixabay-534216.jpg"
 import image2 from "./assets/images/1032028070862920821.jpg"
 import image3 from "./assets/images/image.png"
-import image4 from "./assets/images/Screenshot 2025-06-14 at 10.48.08 PM.png"
+import image4 from "./assets/images/myResearchPaper.png"
 const logotext = "KARTIKEY";
 const meta = {
     title: "Kartikey Sondhi",
