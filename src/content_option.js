@@ -88,7 +88,7 @@ const dataportfolio = [{
     },
     {
         img: image4,
-        description: "This research paper presents a novel approach to provide drivers witht he fastest route in congested road networks. ",
+        description: "This research paper presents a novel approach to provide drivers with the fastest route in congested road networks. ",
         link: "https://pdfs.semanticscholar.org/1f56/313f3f5f090c94ecba7101ddf6f6dc21c125.pdf",
     },
     
