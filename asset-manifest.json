@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e35de340.css",
-    "main.js": "/react-portfolio/static/js/main.1726e50c.js",
+    "main.js": "/react-portfolio/static/js/main.df0ed4a7.js",
     "static/media/pexels-pixabay-534216.jpg": "/react-portfolio/static/media/pexels-pixabay-534216.f88f645befee71f733b3.jpg",
     "static/media/myResearchPaper.png": "/react-portfolio/static/media/myResearchPaper.a85ae4cd7963d3821b79.png",
     "static/media/image.png": "/react-portfolio/static/media/image.9cdc3e15239a7d1af026.png",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.e35de340.css",
-    "static/js/main.1726e50c.js"
+    "static/js/main.df0ed4a7.js"
   ]
 }
