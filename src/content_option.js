@@ -38,7 +38,7 @@ const worktimeline = [{
         date: "May 24 - July 24",
     },
     {
-        jobtitle: "Research Intern",
+        jobtitle: "Summer Research Intern",
         where: "LUSIP",
         date: "Jun 23 - July 23",
     },
