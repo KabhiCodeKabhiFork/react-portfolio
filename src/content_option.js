@@ -62,19 +62,24 @@ const skills = [{
     }
 ];
 
-const services = [{
-        title: "RAG Development and Evaluation",
-        description: "I am skilled in developing and evaluating Retrieval-Augmented Generation (RAG) systems",
-    },
-    {
-        title: "Research and Development",
-        description: "Having a strong background in academic research, I can contribute to innovative projects and solutions.",
-    },
-    {
-        title: "LLM Fine Tuning",
-        description: "I have experience in fine-tuning Large Language Models (LLMs) for specific tasks and applications.",
-    },
+const services = [
+  {
+    title: "RAG Systems — Design, Scaling, and Evaluation",
+    description:
+      "I design and ship production-grade Retrieval-Augmented Generation systems, making deliberate trade-offs across retrieval, chunking, grounding, and evaluation to achieve high accuracy, low latency, and long-term maintainability."
+  },
+  {
+    title: "Applied Research & Algorithmic Development",
+    description:
+      "I operate comfortably at the intersection of research and engineering—formulating novel approaches, synthesizing prior work, and translating ideas into systems that hold up under real-world constraints."
+  },
+  {
+    title: "LLM Adaptation & Optimization",
+    description:
+      "I adapt large language models for specific problem domains through instruction tuning, prompt design, and targeted fine-tuning, with a focus on reliability, cost efficiency, and measurable performance gains."
+  }
 ];
+
 
 const dataportfolio = [{
         img: image1,
@@ -97,7 +102,8 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "kartikeysondhi@gmail.com",
     // YOUR_FONE: "+91 **********",
-    description: "Open to discussing new projects, creative ideas or opportunities to be part of your visions.",
+    description: `I’m excited to work with a team that has a high-velocity, inclusive engineering culture and a strong bias toward pushing the boundaries of what’s state-of-the-art. I’m especially motivated by companies with a clear long-term vision, disciplined execution, and the ambition to build products that can serve a large, meaningful market.
+    In my next role, I’m comfortable committing long, intense work cycles when the team is well-planned and aligned around a clear direction. I do my best work in environments where effort is matched with clarity of goals, strong technical leadership, and a shared sense of ownership over the end product. `,
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: process.env.REACT_APP_EMAILJS_SERVICE_ID,

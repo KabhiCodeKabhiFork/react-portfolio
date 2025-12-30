@@ -5,6 +5,9 @@ body {
     animation: gradient 35s ease infinite;
     
 }
+p {
+    white-space: pre-line;
+}
 
 @keyframes gradient {
     0% {
