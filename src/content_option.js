@@ -2,6 +2,7 @@ import image1 from "./assets/images/pexels-pixabay-534216.jpg"
 import image2 from "./assets/images/1032028070862920821.jpg"
 import image3 from "./assets/images/image.png"
 import image4 from "./assets/images/myResearchPaper.png"
+import image5 from "./assets/images/TruckELD.png"
 const logotext = "KARTIKEY";
 const meta = {
     title: "Kartikey Sondhi",
@@ -12,16 +13,16 @@ const introdata = {
     title: "I’m Kartikey Sondhi",
     animated: {
         first: "I am an AI/ML Engineer",
-        second: "I am a Researcher",
-        // third: "I am a Basketball Player",
+        second: "I am a Data Scientist",
+        third: "I am a Researcher",
     },
-    description: "I'm an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning, Python and Academic Research. Currently learning C++ and exploring oppurtunities surrounding building optimizations for AI Inference on different devices",
+    description: "Results-driven AI Engineer with a strong track record of designing, shipping, and scaling production systems. Experienced in building reliable ML-powered backends, improving system performance, and turning stalled projects into high-impact deliverables through rigorous engineering and data-driven iteration.",
     your_img_url: "",
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "I am an AI/ML Engineer and Researcher with a passion for developing innovative solutions. I graduated with a Dual B.Tech M.Tech degree in Computer Science, and have a strong background in Deep Learning,Python and Academic Research. I am currently exploring oppurtunities surrounding surrounding building optimizations for AI Inference on different devices, be it research or practical design and development."
+    aboutme: "Results-driven AI Engineer with a strong track record of designing, shipping, and scaling production systems. Experienced in building reliable ML-powered backends, improving system performance, and turning stalled projects into high-impact deliverables through rigorous engineering and data-driven iteration. Experienced building chatbots, LLM evaluation systems and building superior RAG based architectures."
 };
 const worktimeline = [{
         jobtitle: "Data Scientist 2",
@@ -46,11 +47,11 @@ const worktimeline = [{
 
 const skills = [{
         name: "Python",
-        value: 80,
+        value: 90,
     },
     {
         name: "Deep Learning",
-        value: 80,
+        value: 85,
     },
     {
         name: "SQL",
@@ -82,8 +83,12 @@ const services = [
 
 
 const dataportfolio = [{
+    img: image5,
+    description: "Built a functional and in use app for a US based trucking company which heuristically approaches truck routing problem and ELD planning as a printable format.",
+    link : "https://truck-route-eld.vercel.app"
+},{
         img: image1,
-        description: "An attempt at the Jane Street Stock Market Prediction Challenge. I trained a CNN-LSTM model from scratch to predict stock prices based on historical data.",
+        description: "Participated in the Jane Street Stock Market Prediction Challenge. I trained a CNN-LSTM model from scratch to predict stock prices based on historical data.",
         link: "https://github.com/KabhiCodeKabhiFork/CNN_LSTM_Ensemble_Stock_Prediction",
     },
     {
@@ -102,8 +107,8 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "kartikeysondhi@gmail.com",
     // YOUR_FONE: "+91 **********",
-    description: `I’m excited to work with a team that has a high-velocity, inclusive engineering culture and a strong bias toward pushing the boundaries of what’s state-of-the-art. I’m especially motivated by companies with a clear long-term vision, disciplined execution, and the ambition to build products that can serve a large, meaningful market.
-    In my next role, I’m comfortable committing long, intense work cycles when the team is well-planned and aligned around a clear direction. I do my best work in environments where effort is matched with clarity of goals, strong technical leadership, and a shared sense of ownership over the end product. `,
+    description: `I’m drawn to teams that operate with high velocity, strong technical rigor, and a culture that actively pushes the boundaries of what’s state-of-the-art. I value environments where inclusion is paired with intellectual intensity, and where ambitious long-term vision is backed by disciplined execution. I’m particularly motivated by companies building for meaningful scale — products that serve large markets and solve problems that truly matter.
+    At this stage in my career, I’m intentional about where I invest my time and energy. I thrive in focused, high-output work cycles when there’s clarity of direction, strong engineering leadership, and shared ownership across the team. Having worked both independently and in structured environments, I bring a high degree of accountability, systems thinking, and execution discipline. I do my best work where expectations are high, planning is deliberate, and outcomes are measurable. `,
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: process.env.REACT_APP_EMAILJS_SERVICE_ID,
