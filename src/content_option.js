@@ -1,3 +1,4 @@
+import imageUsovo from "./assets/images/usovo.png"
 import image1 from "./assets/images/pexels-pixabay-534216.jpg"
 import image2 from "./assets/images/1032028070862920821.jpg"
 import image3 from "./assets/images/image.png"
@@ -6,25 +7,29 @@ import image5 from "./assets/images/TruckELD.png"
 const logotext = "KARTIKEY";
 const meta = {
     title: "Kartikey Sondhi",
-    description: "I’m Kartikey Sondhi, an AI/ML Engineer _ Researcher, currently working in Bangalore",
+    description: "I’m Kartikey Sondhi, Founder of Usovo AI and an AI/ML Engineer _ Data Scientist, currently based in Bangalore",
 };
 
 const introdata = {
     title: "I’m Kartikey Sondhi",
     animated: {
-        first: "I am an AI/ML Engineer",
-        second: "I am a Data Scientist",
-        third: "I am a Researcher",
+        first: "I am the Founder of Usovo AI",
+        second: "I am an AI/ML Engineer",
+        third: "I am a Data Scientist",
     },
-    description: "Results-driven AI Engineer with a strong track record of designing, shipping, and scaling production systems. Experienced in building reliable ML-powered backends, improving system performance, and turning stalled projects into high-impact deliverables through rigorous engineering and data-driven iteration.",
+    description: "Founder of Usovo AI, a local-first AI audio studio for Apple Silicon — professional-grade speech, music, sound, and voice models that run entirely on your own machine, with no meter, no credits, and no upload. Alongside building Usovo, I bring a strong engineering foundation as an AI/ML Engineer and Data Scientist, with a track record of designing, shipping, and scaling production ML systems.",
     your_img_url: "",
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "Results-driven AI Engineer with a strong track record of designing, shipping, and scaling production systems. Experienced in building reliable ML-powered backends, improving system performance, and turning stalled projects into high-impact deliverables through rigorous engineering and data-driven iteration. Experienced building chatbots, LLM evaluation systems and building superior RAG based architectures."
+    aboutme: "Founder of Usovo AI, a local-first AI audio studio for Apple Silicon that gives creators professional-grade speech, music, sound, and voice generation running entirely on-device — own it, use it as much as you like. Alongside building Usovo, I work as an AI/ML Engineer and Data Scientist with a strong track record of designing, shipping, and scaling production ML systems, including chatbots, LLM evaluation frameworks, and RAG-based architectures."
 };
 const worktimeline = [{
+        jobtitle: "Founder & CEO",
+        where: "Usovo AI",
+        date: "2026 - Current",
+    },{
         jobtitle: "Data Scientist 2",
         where: "Deloitte",
         date: "Jul 25 - Current",
@@ -65,6 +70,11 @@ const skills = [{
 
 const services = [
   {
+    title: "Founder — Usovo AI",
+    description:
+      "Building Usovo AI, a local-first AI audio studio for Apple Silicon that delivers professional-grade speech, music, sound, and voice models running entirely on-device — no subscriptions, no uploads. I own the product end-to-end: brand, UX, technical architecture, and go-to-market."
+  },
+  {
     title: "RAG Systems — Design, Scaling, and Evaluation",
     description:
       "I design and ship production-grade Retrieval-Augmented Generation systems, making deliberate trade-offs across retrieval, chunking, grounding, and evaluation to achieve high accuracy, low latency, and long-term maintainability."
@@ -83,6 +93,10 @@ const services = [
 
 
 const dataportfolio = [{
+    img: imageUsovo,
+    description: "Usovo AI — founder & builder. A local-first AI audio studio for Apple Silicon delivering professional-grade speech, music, sound, and voice models that run entirely on your own machine. No meter, no credits, no upload — own it, use it as much as you like.",
+    link: "https://usovo.in"
+},{
     img: image5,
     description: "Built a functional and in use app for a US based trucking company which heuristically approaches truck routing problem and ELD planning as a printable format.",
     link : "https://truck-route-eld.vercel.app"
@@ -107,7 +121,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "kartikeysondhi@gmail.com",
     // YOUR_FONE: "+91 **********",
-    description: `I’m drawn to teams that operate with high velocity, strong technical rigor, and a culture that actively pushes the boundaries of what’s state-of-the-art. I value environments where inclusion is paired with intellectual intensity, and where ambitious long-term vision is backed by disciplined execution. I’m particularly motivated by companies building for meaningful scale — products that serve large markets and solve problems that truly matter.
+    description: `As founder of Usovo AI, I’m building a local-first AI audio studio for Apple Silicon — and I’m always open to conversations with collaborators, investors, and early users. I’m also drawn to teams that operate with high velocity, strong technical rigor, and a culture that actively pushes the boundaries of what’s state-of-the-art. I value environments where inclusion is paired with intellectual intensity, and where ambitious long-term vision is backed by disciplined execution. I’m particularly motivated by companies building for meaningful scale — products that serve large markets and solve problems that truly matter.
     At this stage in my career, I’m intentional about where I invest my time and energy. I thrive in focused, high-output work cycles when there’s clarity of direction, strong engineering leadership, and shared ownership across the team. Having worked both independently and in structured environments, I bring a high degree of accountability, systems thinking, and execution discipline. I do my best work where expectations are high, planning is deliberate, and outcomes are measurable. `,
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
