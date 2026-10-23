@@ -26,6 +26,12 @@
 .btn--outline{background:var(--paper)}
 .btn--outline:hover{background:var(--surface)}
 
+.resume{display:flex;justify-content:space-between;align-items:center;gap:24px 48px;flex-wrap:wrap;background:#fff;border:1px solid var(--ink);padding:32px clamp(20px,3vw,40px);margin-bottom:96px}
+.resume__text{display:flex;flex-direction:column;gap:10px}
+.resume h2{font-size:clamp(26px,3vw,36px);line-height:1.05;font-weight:500;letter-spacing:-.02em;margin:0}
+.resume p{margin:0;font-size:16px;opacity:.65}
+.resume__actions{display:flex;gap:12px;flex-wrap:wrap}
+
 .block{padding:0 0 112px}
 .block__head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding-bottom:20px;border-bottom:1px solid var(--ink)}
 .block__head h2{font-size:32px;line-height:1;font-weight:500;letter-spacing:-.02em;margin:0}

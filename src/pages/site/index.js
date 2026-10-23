@@ -4,6 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta, intro, projects, skills, contactConfig, socialprofils } from "../../content_option";
 import "./style.css";
 
+const RESUME = `${process.env.PUBLIC_URL}/Kartikey-Sondhi-Resume.pdf`;
+
 const pad = (n) => String(n).padStart(2, "0");
 
 export const Site = () => {
@@ -46,6 +48,7 @@ export const Site = () => {
             <a href="#top" className="nav__brand">{intro.name}</a>
             <div className="nav__links">
               <a href="#work">Work</a>
+              <a href="#resume">Resume</a>
               <a href="#skills">Skills</a>
               <a href="#contact" className="nav__cta">Contact →</a>
             </div>
@@ -58,8 +61,21 @@ export const Site = () => {
             <div className="hero__actions">
               <a href="#contact" className="btn btn--dark">Get in touch <span>→</span></a>
               <a href="#work" className="btn btn--outline">See work</a>
+              <a href={RESUME} target="_blank" rel="noreferrer" className="btn btn--outline">Resume ↓</a>
             </div>
           </header>
+
+          <section id="resume" className="resume">
+            <div className="resume__text">
+              <span className="caption caption--olive">Résumé</span>
+              <h2>The short version, on one page.</h2>
+              <p>Experience, research and projects in a single PDF.</p>
+            </div>
+            <div className="resume__actions">
+              <a href={RESUME} target="_blank" rel="noreferrer" className="btn btn--dark">View resume <span>↗</span></a>
+              <a href={RESUME} download="Kartikey-Sondhi-Resume.pdf" className="btn btn--outline">Download PDF ↓</a>
+            </div>
+          </section>
 
           <section id="work" className="block">
             <div className="block__head">
