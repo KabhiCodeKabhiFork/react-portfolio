@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.4d5b2d8d.css",
-    "main.js": "./static/js/main.f41900bd.js",
+    "main.css": "./static/css/main.3d19e3b7.css",
+    "main.js": "./static/js/main.9493e902.js",
     "static/media/funktional-grotesk-italic.otf": "./static/media/funktional-grotesk-italic.eb25df7a7aca17147597.otf",
     "static/media/funktional-grotesk-medium.otf": "./static/media/funktional-grotesk-medium.c0c7c7ab5018c58d5736.otf",
     "static/media/funktional-grotesk-regular.otf": "./static/media/funktional-grotesk-regular.eb9aedd41827efe4a793.otf",
     "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.4d5b2d8d.css",
-    "static/js/main.f41900bd.js"
+    "static/css/main.3d19e3b7.css",
+    "static/js/main.9493e902.js"
   ]
 }
