@@ -1,0 +1,79 @@
+.site{color:var(--ink);background-color:var(--paper);
+  background-image:linear-gradient(var(--grid-line) 1px,transparent 1px),linear-gradient(90deg,var(--grid-line) 1px,transparent 1px);
+  background-size:var(--grid) var(--grid);background-position:-1px -1px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+.square{width:8px;height:8px;background:var(--accent);display:block;flex:none}
+.caption{font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.5}
+.caption--olive{color:var(--accent);opacity:1}
+.caption--light{color:var(--accent-light);opacity:1}
+
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:28px 0;border-bottom:1px solid var(--ink)}
+.nav__brand{font-size:18px;font-weight:500;letter-spacing:-.01em}
+.nav__links{display:flex;gap:28px;font-size:15px;flex-wrap:wrap}
+.nav__cta{color:var(--clay)}
+
+.hero{padding:96px 0 88px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:48px 64px;align-items:end}
+.hero__status{grid-column:1/-1;display:flex;align-items:center;gap:10px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.hero__status span:last-child{opacity:.7}
+.hero__title{grid-column:1/-1;font-size:clamp(48px,7vw,96px);line-height:.94;font-weight:500;letter-spacing:-.035em;margin:0;max-width:15ch;text-wrap:balance}
+.hero__title em{font-weight:400;color:var(--gold)}
+.hero__lede{font-size:20px;line-height:1.45;margin:0;opacity:.7;max-width:40ch;text-wrap:pretty}
+.hero__actions{display:flex;gap:12px;flex-wrap:wrap}
+
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 24px;font-size:16px;border:1px solid var(--ink);border-radius:0}
+.btn--dark{background:var(--ink);color:var(--paper)}
+.btn--dark:hover{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.btn--outline{background:var(--paper)}
+.btn--outline:hover{background:var(--surface)}
+
+.block{padding:0 0 112px}
+.block__head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;padding-bottom:20px;border-bottom:1px solid var(--ink)}
+.block__head h2{font-size:32px;line-height:1;font-weight:500;letter-spacing:-.02em;margin:0}
+
+.project{display:grid;grid-template-columns:48px minmax(0,1fr) minmax(0,1.3fr) auto;gap:16px 32px;align-items:baseline;padding:28px 28px;margin-top:12px;background:#fff;border:1px solid var(--line);transition:background .14s,border-color .14s}
+.project:first-of-type{margin-top:24px}
+.project:hover{background:#fff;border-color:var(--ink);color:var(--ink)}
+.project__n{font-size:13px;opacity:.45;font-variant-numeric:tabular-nums}
+.project__name{min-width:0}
+.project__name h3{font-size:24px;line-height:1.15;font-weight:500;letter-spacing:-.02em;margin:0}
+.project__name .caption{margin:6px 0 0}
+.project__desc{margin:0;font-size:16px;line-height:1.5;opacity:.65;text-wrap:pretty}
+.project__arrow{font-size:18px}
+@media (max-width:760px){
+  .project{grid-template-columns:28px minmax(0,1fr) auto;padding:22px 20px}
+  .project__desc{grid-column:2/3}
+}
+
+.skills{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:24px;background:#fff;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.skills__col{padding:28px 24px 32px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:20px}
+.skills__title{display:flex;align-items:center;gap:10px}
+.skills ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.skills li{font-size:17px;line-height:1.3}
+@media (max-width:900px){.skills{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.skills{grid-template-columns:1fr}}
+
+.contact{background:var(--ink);background-image:none;color:var(--paper)}
+.contact__inner{max-width:1200px;margin:0 auto;padding:112px clamp(20px,4vw,48px) 48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:64px}
+.contact__info{display:flex;flex-direction:column;gap:28px}
+.contact__info h2{font-size:clamp(44px,5.5vw,72px);line-height:.94;font-weight:500;letter-spacing:-.035em;margin:0}
+.contact__info h2 em{font-weight:400}
+.contact__info p{font-size:18px;line-height:1.5;margin:0;color:rgba(252,250,247,.7);max-width:40ch}
+.contact__links{border-top:1px solid rgba(252,250,247,.2)}
+.contact__links a{display:flex;justify-content:space-between;gap:16px;padding:18px 0;border-bottom:1px solid rgba(252,250,247,.2);color:var(--paper);font-size:17px}
+.contact__links a:hover{color:var(--accent-light)}
+.contact__links a span:first-child{opacity:.55}
+.contact__legal{grid-column:1/-1;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:28px;border-top:1px solid rgba(252,250,247,.2);font-size:13px;color:rgba(252,250,247,.5)}
+
+.form{display:flex;flex-direction:column;gap:20px;align-self:end}
+.form__row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,180px),1fr));gap:20px}
+.form label{display:flex;flex-direction:column;gap:8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:rgba(252,250,247,.55)}
+.form input,.form textarea{background:transparent;border:1px solid rgba(252,250,247,.3);border-radius:0;color:var(--paper);font-size:16px;letter-spacing:0;text-transform:none;outline:none}
+.form input{height:52px;padding:0 16px}
+.form textarea{padding:14px 16px;line-height:1.5;resize:vertical}
+.form input:focus,.form textarea:focus{border-color:var(--accent-light)}
+.form input::placeholder,.form textarea::placeholder{color:rgba(252,250,247,.4)}
+.form__foot{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.form__foot > span{font-size:15px;color:rgba(252,250,247,.55)}
+.form button{display:inline-flex;align-items:center;gap:10px;padding:16px 28px;background:var(--paper);color:var(--ink);border:1px solid var(--paper);border-radius:0;font-size:16px;cursor:pointer}
+.form button:hover{background:var(--accent-light);border-color:var(--accent-light)}
+.form button:disabled{opacity:.6;cursor:default}
