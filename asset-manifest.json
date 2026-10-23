@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.7ead7552.css",
-    "main.js": "/react-portfolio/static/js/main.1df3c0a9.js",
-    "static/media/TruckELD.png": "/react-portfolio/static/media/TruckELD.f6070ef909e2a9330567.png",
-    "static/media/pexels-pixabay-534216.jpg": "/react-portfolio/static/media/pexels-pixabay-534216.f88f645befee71f733b3.jpg",
-    "static/media/myResearchPaper.png": "/react-portfolio/static/media/myResearchPaper.74a1f85c12cf31a02c39.png",
-    "static/media/usovo.png": "/react-portfolio/static/media/usovo.89a41484172ff3332bb9.png",
-    "static/media/image.png": "/react-portfolio/static/media/image.9cdc3e15239a7d1af026.png",
-    "static/media/jpg": "/react-portfolio/static/media/1032028070862920821.f523fff181ad1e868a3f.jpg",
-    "index.html": "/react-portfolio/index.html"
+    "main.css": "./static/css/main.4d5b2d8d.css",
+    "main.js": "./static/js/main.f41900bd.js",
+    "static/media/funktional-grotesk-italic.otf": "./static/media/funktional-grotesk-italic.eb25df7a7aca17147597.otf",
+    "static/media/funktional-grotesk-medium.otf": "./static/media/funktional-grotesk-medium.c0c7c7ab5018c58d5736.otf",
+    "static/media/funktional-grotesk-regular.otf": "./static/media/funktional-grotesk-regular.eb9aedd41827efe4a793.otf",
+    "index.html": "./index.html"
   },
   "entrypoints": [
-    "static/css/main.7ead7552.css",
-    "static/js/main.1df3c0a9.js"
+    "static/css/main.4d5b2d8d.css",
+    "static/js/main.f41900bd.js"
   ]
 }
